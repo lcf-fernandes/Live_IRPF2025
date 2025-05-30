@@ -293,6 +293,7 @@ fontSize: "12px",
             args,
           }}/>
         , 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -338,6 +339,41 @@ fontSize: "12px",
         }})],
 
           args,
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+alignItems: "center",
+justifyContent: "center",
+width: "100px",
+borderWidth: "1px",
+borderColor: "#CCC",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#EEE",
+fontSize: "12px",
+}`
+          ],
+
+          children: [
+            `Calcular`
+          ],
+
+          args,
+
         }}/>],
 
             args,
