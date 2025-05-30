@@ -44,9 +44,27 @@ height: "100%",
             styles:[`{
 flex: "1px",
 backgroundColor: "red",
+flexDirection: "row",
 }`],
 
-            functions:[()=>{}],            childrenItems:[() =><></>],
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#EEE'
+}`
+          ],
+
+          children: [
+            `Rendimentos Tributáveis: R$`
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
