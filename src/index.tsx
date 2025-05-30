@@ -75,7 +75,7 @@ color: "#EEE",
 fontSize: "12px",
 }`],
 
-          path: [" "],
+          path: [`all.forms.form1.rendTrib`],
 
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
