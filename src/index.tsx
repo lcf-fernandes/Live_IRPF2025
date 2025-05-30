@@ -44,7 +44,6 @@ height: "100%",
 
             styles:[`{
 width: "80%",
-backgroundColor: "red",
 flexDirection: "row",
 }`],
 
