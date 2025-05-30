@@ -80,7 +80,7 @@ fontSize: "12px",
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [`all.forms.form1.rendTrib`],
-          value: ['no value']
+          value: [`$arg_callback`]
         }})],
 
           args,
@@ -131,7 +131,7 @@ fontSize: "12px",
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [`all.forms.form1.desMed`],
-          value: ['no value']
+          value: [`$arg_callback`]
         }})],
 
           args,
