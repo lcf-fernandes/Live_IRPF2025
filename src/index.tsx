@@ -42,7 +42,7 @@ height: "100%",
             elementsProperties:['{}'],
 
             styles:[`{
-flex: 1,
+flex: "1px",
 backgroundColor: "red",
 }`],
 
