@@ -349,11 +349,10 @@ fontSize: "12px",
             elementsProperties:['{}'],
 
             styles:[`{
-alignItems: "center",
 justifyContent: "center",
 width: "100px",
 borderWidth: "1px",
-borderColor: "#CCC",
+borderColor: "#EEE",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
@@ -364,7 +363,6 @@ borderColor: "#CCC",
           arrStyles: [
             `{
 color: "#EEE",
-fontSize: "12px",
 }`
           ],
 
