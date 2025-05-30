@@ -60,6 +60,7 @@ flexDirection: "row",
             `{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`
           ],
 
@@ -75,6 +76,7 @@ fontSize: "11px",
           stylesArray: [`{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`],
 
           path: [`all.forms.form1.rendTrib`],
@@ -111,6 +113,7 @@ flexDirection: "row",
             `{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`
           ],
 
@@ -126,6 +129,7 @@ fontSize: "11px",
           stylesArray: [`{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`],
 
           path: [`all.forms.form1.desMed`],
@@ -162,6 +166,7 @@ flexDirection: "row",
             `{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`
           ],
 
@@ -177,6 +182,7 @@ fontSize: "11px",
           stylesArray: [`{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`],
 
           path: [`all.forms.form1.edu`],
@@ -213,6 +219,7 @@ flexDirection: "row",
             `{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`
           ],
 
@@ -228,6 +235,7 @@ fontSize: "11px",
           stylesArray: [`{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`],
 
           path: [`all.forms.form1.prev`],
@@ -264,6 +272,7 @@ flexDirection: "row",
             `{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`
           ],
 
@@ -279,6 +288,7 @@ fontSize: "11px",
           stylesArray: [`{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`],
 
           path: [`all.forms.form1.irRet`],
@@ -315,6 +325,7 @@ flexDirection: "row",
             `{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`
           ],
 
@@ -330,6 +341,7 @@ fontSize: "11px",
           stylesArray: [`{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`],
 
           path: [`all.forms.form1.dep`],
@@ -478,6 +490,7 @@ flexDirection: "row",
             `{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`
           ],
 
@@ -496,6 +509,7 @@ fontSize: "11px",
             `{
 color: "#EEE",
 fontSize: "11px",
+width: "50px",
 }`
           ],
 
