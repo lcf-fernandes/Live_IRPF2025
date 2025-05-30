@@ -30,7 +30,7 @@
           pathScreen:"home",
 
           styles:[`{
-backgroundColor: "#00C",
+backgroundColor: "#000",
 alignItems: "center",
 width: "100%",
 height: "100%",
