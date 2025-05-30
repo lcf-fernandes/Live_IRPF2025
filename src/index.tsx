@@ -451,7 +451,8 @@ color: "#EEE",
           pathScreen:"scResultados",
 
           styles:[`{
-backgroundColor: "#000",
+padding: "10px",
+backgroundColor: "darkblue",
 alignItems: "center",
 justifyContent: "center",
 width: "100%",
