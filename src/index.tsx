@@ -31,7 +31,7 @@
           pathScreen:"home",
 
           styles:[`{
-backgroundColor: "#000",
+backgroundColor: "darkblue",
 alignItems: "center",
 justifyContent: "center",
 width: "100%",
