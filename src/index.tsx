@@ -43,7 +43,7 @@ height: "100%",
             elementsProperties:['{}'],
 
             styles:[`{
-width: "80%",
+width: "90%",
 flexDirection: "row",
 }`],
 
