@@ -25,6 +25,7 @@
 
           const screens = [
             
+        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"home",
@@ -381,6 +382,75 @@ color: "#EEE",
           functions:[()=>{}],
 
           args,
+        }}/>, 
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"scResultados",
+
+          styles:[`{
+backgroundColor: "#000",
+alignItems: "center",
+justifyContent: "center",
+width: "100%",
+height: "100%",
+}`],
+
+          screenElements:[
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "100%",
+flexDirection: "row",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#EEE",
+fontSize: "12px",
+}`
+          ],
+
+          children: [
+            `Resultado: `
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#EEE",
+fontSize: "12px",
+}`
+          ],
+
+          children: [
+            `$var_sc.A1.results`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
+
+          functions:[()=>{}],
+
+          args,
         }}/>
           ];
 
@@ -401,14 +471,21 @@ color: "#EEE",
 'dataToSet': {name: "Carlos", phone: "1111"}, 
 'toggles': { 
 'box1': true, 'checkbox1': false } 
-, 'firebaseConfig': {
+, 
+'firebaseConfig': {
   apiKey: "AIzaSyDjAfyEUADq7EaRyFWlGFjP1Eoox9LJHgI",
   authDomain: "devs-tests-95208.firebaseapp.com",
   projectId: "devs-tests-95208",
   storageBucket: "devs-tests-95208.appspot.com",
   messagingSenderId: "750912250366",
   appId: "1:750912250366:web:4629eac789a718a74220af"
-} } 
+}, 'tabelaIR': [
+  { faixa: 1, limite: 2259.20, aliquota: 0, deducao: 0 },
+  { faixa: 2, limite: 3393.80, aliquota: 7.5, deducao: 169.44 },
+  { faixa: 3, limite: 4500.00, aliquota: 15, deducao: 381.44 },
+  { faixa: 4, limite: 5599.99, aliquota: 22.5, deducao: 662.77 },
+  { faixa: 5, limite: Infinity, aliquota: 27.5, deducao: 896.00 }
+] } 
  
 } 
  );
