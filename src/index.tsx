@@ -55,12 +55,12 @@ flexDirection: "row",
 
           arrStyles: [
             `{
-color: "#EEE'
+color: "#EEE",
 }`
           ],
 
           children: [
-            `Rendimentos Tributáveis: `
+            `Rendimentos Tributáveis: R$`
           ],
 
           args,
