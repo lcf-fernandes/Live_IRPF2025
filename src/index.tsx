@@ -410,7 +410,7 @@ console.log({finalResult});
  const pass1 = { keyPath: [path2], value: [finalResult] };
  tools.functions.setVar({ args: '', pass: pass1 });
 
-tools.functions.goTo('scResultados');
+tools.goTo('scResultados');
 }, 
         (...args) => {
           // ---------- get Function from A_Project Scope
