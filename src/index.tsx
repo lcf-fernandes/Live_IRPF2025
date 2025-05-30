@@ -411,7 +411,7 @@ console.log({finalResult});
 
 tools.functions.goTo('scResultados');
 }]
- , trigger: 'on init'
+ , trigger: 'on press'
 }})],            childrenItems:[(...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
