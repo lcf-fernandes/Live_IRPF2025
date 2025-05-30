@@ -478,7 +478,7 @@ flexDirection: "row",
           arrStyles: [
             `{
 color: "#EEE",
-fontSize: "11px",
+fontSize: "18px",
 }`
           ],
 
@@ -496,7 +496,7 @@ fontSize: "11px",
           arrStyles: [
             `{
 color: "#EEE",
-fontSize: "11px",
+fontSize: "18px",
 }`
           ],
 
