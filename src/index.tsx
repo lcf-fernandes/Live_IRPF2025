@@ -60,7 +60,7 @@ color: "#EEE'
           ],
 
           children: [
-            `Rendimentos Tributáveis: R$`
+            `Rendimentos Tributáveis: `
           ],
 
           args,
