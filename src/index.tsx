@@ -29,15 +29,12 @@
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"home",
 
-          styles:[
-              {
-                backgroundColor: '#101',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100%',
-                width: '100%',
-              }
-              ],
+          styles:[`{
+backgroundColor: "#00F",
+alignItems: "center",
+width: "100%",
+height: "100%",
+}`],
 
           screenElements:[() => {
                   const textStyle = {
