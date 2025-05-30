@@ -89,6 +89,7 @@ fontSize: "12px",
             args,
           }}/>
         , 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -130,6 +131,56 @@ fontSize: "12px",
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [`all.forms.form1.desMed`],
+          value: [`$arg_callback`]
+        }})],
+
+          args,
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "100%",
+flexDirection: "row",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#EEE",
+fontSize: "12px",
+}`
+          ],
+
+          children: [
+            `Educação: R$`
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.IptTxtEdit pass={{
+          propsArray: [{}],
+
+          stylesArray: [`{
+color: "#EEE",
+fontSize: "12px",
+}`],
+
+          path: [" "],
+
+          funcsArray: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [`all.forms.form1.edu`],
           value: [`$arg_callback`]
         }})],
 
