@@ -126,7 +126,7 @@ color: "#EEE",
 fontSize: "12px",
 }`],
 
-          path: [" "],
+          path: [`all.forms.form1.desMed`],
 
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
@@ -177,7 +177,7 @@ color: "#EEE",
 fontSize: "12px",
 }`],
 
-          path: [" "],
+          path: [`all.forms.form1.edu`],
 
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
@@ -228,7 +228,7 @@ color: "#EEE",
 fontSize: "12px",
 }`],
 
-          path: [" "],
+          path: [`all.forms.form1.prev`],
 
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
@@ -279,7 +279,7 @@ color: "#EEE",
 fontSize: "12px",
 }`],
 
-          path: [" "],
+          path: [`all.forms.form1.irRet`],
 
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
@@ -330,7 +330,7 @@ color: "#EEE",
 fontSize: "12px",
 }`],
 
-          path: [" "],
+          path: [`all.forms.form1.dep`],
 
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
