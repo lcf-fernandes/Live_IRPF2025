@@ -31,6 +31,7 @@
           pathScreen:"home",
 
           styles:[`{
+padding: "10px",
 backgroundColor: "darkblue",
 alignItems: "center",
 justifyContent: "center",
