@@ -46,7 +46,6 @@ height: "100%",
             styles:[`{
 width: "100%",
 flexDirection: "row",
-alignItems: "center",
 justifyContent: "center",
 }`],
 
@@ -98,7 +97,6 @@ fontSize: "12px",
             styles:[`{
 width: "100%",
 flexDirection: "row",
-alignItems: "center",
 justifyContent: "center",
 }`],
 
