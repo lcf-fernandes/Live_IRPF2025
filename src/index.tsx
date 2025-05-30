@@ -59,7 +59,7 @@ flexDirection: "row",
           arrStyles: [
             `{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`
           ],
 
@@ -74,7 +74,7 @@ fontSize: "12px",
 
           stylesArray: [`{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`],
 
           path: [`all.forms.form1.rendTrib`],
@@ -110,7 +110,7 @@ flexDirection: "row",
           arrStyles: [
             `{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`
           ],
 
@@ -125,7 +125,7 @@ fontSize: "12px",
 
           stylesArray: [`{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`],
 
           path: [`all.forms.form1.desMed`],
@@ -161,7 +161,7 @@ flexDirection: "row",
           arrStyles: [
             `{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`
           ],
 
@@ -176,7 +176,7 @@ fontSize: "12px",
 
           stylesArray: [`{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`],
 
           path: [`all.forms.form1.edu`],
@@ -212,7 +212,7 @@ flexDirection: "row",
           arrStyles: [
             `{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`
           ],
 
@@ -227,7 +227,7 @@ fontSize: "12px",
 
           stylesArray: [`{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`],
 
           path: [`all.forms.form1.prev`],
@@ -263,7 +263,7 @@ flexDirection: "row",
           arrStyles: [
             `{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`
           ],
 
@@ -278,7 +278,7 @@ fontSize: "12px",
 
           stylesArray: [`{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`],
 
           path: [`all.forms.form1.irRet`],
@@ -314,7 +314,7 @@ flexDirection: "row",
           arrStyles: [
             `{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`
           ],
 
@@ -329,7 +329,7 @@ fontSize: "12px",
 
           stylesArray: [`{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`],
 
           path: [`all.forms.form1.dep`],
@@ -477,7 +477,7 @@ flexDirection: "row",
           arrStyles: [
             `{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`
           ],
 
@@ -495,7 +495,7 @@ fontSize: "12px",
           arrStyles: [
             `{
 color: "#EEE",
-fontSize: "12px",
+fontSize: "11px",
 }`
           ],
 
