@@ -46,7 +46,6 @@ height: "100%",
             styles:[`{
 width: "100%",
 flexDirection: "row",
-justifyContent: "center",
 }`],
 
             functions:[()=>{}],            childrenItems:[
@@ -97,7 +96,6 @@ fontSize: "12px",
             styles:[`{
 width: "100%",
 flexDirection: "row",
-justifyContent: "center",
 }`],
 
             functions:[()=>{}],            childrenItems:[
