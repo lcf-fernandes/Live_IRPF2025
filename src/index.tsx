@@ -350,6 +350,7 @@ fontSize: "12px",
             elementsProperties:['{}'],
 
             styles:[`{
+alignItems: "center",
 justifyContent: "center",
 width: "100px",
 borderWidth: "1px",
