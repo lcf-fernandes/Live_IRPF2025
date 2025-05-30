@@ -242,6 +242,7 @@ fontSize: "12px",
             args,
           }}/>
         , 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -283,6 +284,56 @@ fontSize: "12px",
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [`all.forms.form1.irRet`],
+          value: [`$arg_callback`]
+        }})],
+
+          args,
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "100%",
+flexDirection: "row",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#EEE",
+fontSize: "12px",
+}`
+          ],
+
+          children: [
+            `Dependentes:  `
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.IptTxtEdit pass={{
+          propsArray: [{}],
+
+          stylesArray: [`{
+color: "#EEE",
+fontSize: "12px",
+}`],
+
+          path: [" "],
+
+          funcsArray: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [`all.forms.form1.dep`],
           value: [`$arg_callback`]
         }})],
 
