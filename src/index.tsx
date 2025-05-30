@@ -56,6 +56,7 @@ flexDirection: "row",
           arrStyles: [
             `{
 color: "#EEE",
+fontSize: "10px",
 }`
           ],
 
