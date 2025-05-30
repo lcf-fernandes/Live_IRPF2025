@@ -58,7 +58,7 @@ justifyContent: "center",
           arrStyles: [
             `{
 color: "#EEE",
-fontSize: "10px",
+fontSize: "12px",
 }`
           ],
 
@@ -73,7 +73,7 @@ fontSize: "10px",
 
           stylesArray: [`{
 color: "#EEE",
-fontSize: "10px",
+fontSize: "12px",
 }`],
 
           path: [" "],
